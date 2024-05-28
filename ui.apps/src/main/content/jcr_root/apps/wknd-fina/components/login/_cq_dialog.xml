@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          jcr:description="A component for user login"
+          jcr:primaryType="cq:Dialog"
+          jcr:title="Login Component">
+    <content jcr:primaryType="cq:TabPanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <basic
+                    jcr:primaryType="cq:Panel"
+                    title="Basic">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <actionUrl
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Action URL"
+                            name="./actionUrl"
+                            xtype="textfield"/>
+                </items>
+            </basic>
+        </items>
+    </content>
+</jcr:root>

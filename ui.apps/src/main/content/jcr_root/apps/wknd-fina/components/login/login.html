@@ -1,0 +1,14 @@
+Welcome to Login
+<sly data-sly-use.login="com.adobe.aem.guides.wknd.fina.core.models.LoginModel">
+    <div class="login-component">
+        <form action="/bin/fina/login" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><BR>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><BR>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</sly>

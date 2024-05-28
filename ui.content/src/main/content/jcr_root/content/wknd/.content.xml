@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="cq:Page">
+    <jcr:content
+            cq:allowedTemplates="[/conf/wknd/settings/wcm/templates/(?!xf-).*]"
+            cq:conf="/conf/wknd"
+            cq:lastReplicated="{Date}2022-02-12T20:06:05.909+05:30"
+            cq:lastReplicatedBy="admin"
+            cq:lastReplicationAction="Activate"
+            jcr:isCheckedOut="{Boolean}true"
+            jcr:mixinTypes="[mix:versionable]"
+            jcr:primaryType="cq:PageContent"
+            jcr:title="WKND Sites Project"
+            jcr:uuid="c42c18c0-5cb5-4b22-9f9d-dbd3ed38c255"
+            sling:configRef="/conf/wknd"
+            sling:redirect="{Boolean}true"
+            sling:redirectStatus="{Long}302"
+            sling:resourceType="foundation/components/redirect"
+            redirectTarget="/content/wknd/us/en">
+        <image
+                cq:lastReplicated="{Date}2022-02-12T20:06:15.750+05:30"
+                cq:lastReplicatedBy="admin"
+                cq:lastReplicationAction="Activate"
+                jcr:mixinTypes="[cq:ReplicationStatus]"
+                jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+    <us/>
+</jcr:root>

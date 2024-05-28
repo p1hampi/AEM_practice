@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="cq:Page">
+    <jcr:content
+            cq:lastModified="{Date}2022-02-22T20:38:34.664+05:30"
+            cq:lastModifiedBy="communities-ugc-writer"
+            jcr:primaryType="nt:unstructured"/>
+    <messaging/>
+</jcr:root>

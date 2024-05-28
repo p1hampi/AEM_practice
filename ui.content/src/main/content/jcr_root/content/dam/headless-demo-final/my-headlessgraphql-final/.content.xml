@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:isCheckedOut="{Boolean}true"
+          jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+          jcr:primaryType="dam:Asset"
+          jcr:uuid="579f6e53-5dc6-4727-8a64-b965034c5908">
+    <jcr:content
+            cq:name="my-headlessgraphql-final"
+            cq:parentPath="/content/dam/headless-demo-final"
+            jcr:lastModified="{Date}2024-04-27T00:20:34.910+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="dam:AssetContent"
+            jcr:title="My-headlessgraphql-final"
+            contentFragment="{Boolean}true"
+            lastFragmentSave="{Date}2024-04-27T00:20:34.910+05:30">
+        <data
+                cq:model="/conf/graphql-demo-endpoint-final/settings/dam/cfm/models/headlessgraphql-final"
+                jcr:primaryType="nt:unstructured"
+                _strucVersion="{Long}1">
+            <master
+                    jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                    jcr:primaryType="nt:unstructured"
+                    address="&lt;p>Pune MH 411057&lt;/p>&#xa;"
+                    address_x0040_ContentType="text/html"
+                    address_x0040_LastModified="{Date}2024-04-27T00:20:34.760+05:30"
+                    firstName="Pavan"
+                    firstName_x0040_LastModified="{Date}2024-04-27T00:20:34.754+05:30"
+                    lastName="Hampi"
+                    lastName_x0040_LastModified="{Date}2024-04-27T00:20:34.758+05:30"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                    jcr:mixinTypes="[dam:IndexedFragmentData]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:uuid="da45fbac-a9d8-4be1-bde6-70d23e9e3dfe"
+                    _x0040_string_x0040_model="/conf/graphql-demo-endpoint-final/settings/dam/cfm/models/headlessgraphql-final"
+                    _x0040_stringArray_x0040_variations="[]"
+                    string_x0040_address="&lt;p>Pune MH 411057&lt;/p>&#xa;"
+                    string_x0040_firstName="Pavan"
+                    string_x0040_lastName="Hampi"/>
+        </indexedData>
+        <metadata
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

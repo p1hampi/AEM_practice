@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          jcr:primaryType="cq:Page">
+    <jcr:content
+            cq:lastModified="{Date}2022-02-26T02:04:25.795+05:30"
+            cq:lastModifiedBy="admin"
+            cq:template="/conf/Global-Navigation/settings/wcm/templates/demo_editable"
+            jcr:primaryType="cq:PageContent"
+            jcr:title="speciman"
+            sling:resourceType="wcm/foundation/components/page"/>
+</jcr:root>

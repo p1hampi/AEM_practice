@@ -1,0 +1,6 @@
+<sly data-sly-use.contactobj="com.adobe.aem.guides.wknd.fina.core.models.ContactCardModel"/>
+<sly data-sly-list.item="${contactobj.contact}"/>
+
+<sly> Name:${item.contactName}</sly>
+<sly> Email:${item.contactEmail}</sly>
+

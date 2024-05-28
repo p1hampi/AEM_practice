@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/wknd-fina/clientlibs"/>
+    <filter root="/apps/wknd-fina/components"/>
+    <filter root="/apps/wknd-fina/i18n"/>
+</workspaceFilter>

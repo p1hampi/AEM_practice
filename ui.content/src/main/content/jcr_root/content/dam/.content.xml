@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+          jcr:mixinTypes="[rep:AccessControllable]"
+          jcr:primaryType="sling:Folder">
+    <dam:batch
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="asset/batch"/>
+    <jcr:content
+            cq:allowedTemplates="[/libs/dam/templates/assetshare,/libs/dam/templates/asseteditor]"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Assets"/>
+    <assetinsights jcr:primaryType="nt:unstructured">
+        <embedcode
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dam/components/assetinsights/embedcode"/>
+        <pagetracker
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dam/components/assetinsights/pagetracker"/>
+    </assetinsights>
+    <collections
+            jcr:mixinTypes="[rep:AccessControllable]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="dam/collection"
+            updated="{Boolean}true">
+        <M jcr:primaryType="nt:unstructured">
+            <M2X7BQu6bNSMV4yiZIoK jcr:primaryType="nt:unstructured">
+                <lightbox
+                        jcr:created="{Date}2022-03-14T23:11:04.969+05:30"
+                        jcr:createdBy="admin"
+                        jcr:description=""
+                        jcr:lastModified="{Date}2022-03-14T23:11:05.075+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[mix:referenceable,rep:AccessControllable]"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Lightbox"
+                        jcr:uuid="c47caf32-762e-4fed-bdaa-da9db1f9e6d4"
+                        sling:resourceSuperType="sling/collection"
+                        sling:resourceType="dam/collection">
+                    <sling:members jcr:primaryType="nt:unstructured"/>
+                    <rep:policy/>
+                </lightbox>
+            </M2X7BQu6bNSMV4yiZIoK>
+        </M>
+        <rep:policy/>
+        <public
+                jcr:mixinTypes="[rep:AccessControllable]"
+                jcr:primaryType="nt:unstructured">
+            <rep:policy/>
+        </public>
+    </collections>
+</jcr:root>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+          jcr:primaryType="cq:Page">
+    <jcr:content
+            cq:lastReplicated="{Date}2022-02-12T20:06:25.718+05:30"
+            cq:lastReplicatedBy="admin"
+            cq:lastReplicationAction="Activate"
+            cq:redirectTarget="/content/wknd/us/en"
+            cq:template="/conf/wknd/settings/wcm/templates/page-content"
+            jcr:isCheckedOut="{Boolean}true"
+            jcr:mixinTypes="[mix:versionable]"
+            jcr:primaryType="cq:PageContent"
+            jcr:title="us"
+            jcr:uuid="78cd87a7-205f-43b8-a1ca-221948be340e"
+            sling:resourceType="foundation/components/redirect"/>
+    <en/>
+    <demo1/>
+</jcr:root>
