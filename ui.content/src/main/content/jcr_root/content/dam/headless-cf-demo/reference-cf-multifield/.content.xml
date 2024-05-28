@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="fe38eda1-c8ae-446e-ab3d-19ba0cfe1394">
+    <jcr:content
+        cq:name="reference-cf-multifield"
+        cq:parentPath="/content/dam/headless-cf-demo"
+        jcr:lastModified="{Date}2024-04-26T21:39:21.649+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="reference cf multifield"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-04-26T21:39:21.649+05:30">
+        <data
+            cq:model="/conf/Headless-practice-graphql/settings/dam/cfm/models/profile-info"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                mydata="\{&#xa;  &quot;BookName&quot; : &quot;Java&quot;&#xa;}"
+                mydata_x0040_LastModified="{Date}2024-04-26T21:39:21.629+05:30"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="84d80cae-ae29-4bf4-8511-40291686c5c5"
+                _x0040_string_x0040_model="/conf/Headless-practice-graphql/settings/dam/cfm/models/profile-info"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_mydata="\{&#xa;  &quot;BookName&quot; : &quot;Java&quot;&#xa;}"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

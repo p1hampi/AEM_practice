@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="fe85c08f-ecff-423f-961a-8b5c68132c0d">
+    <jcr:content
+        cq:name="demo_p1_cf"
+        cq:parentPath="/content/dam/aemgeeks"
+        jcr:lastModified="{Date}2022-03-16T00:41:08.891+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="DEmo_p1_CF"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-03-16T00:41:08.891+05:30">
+        <data
+            cq:model="/conf/aemgeeks/settings/dam/cfm/models/p1_cfm"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                bannerDescription="&lt;p>This is new update&amp;nbsp;&lt;/p>&#xa;"
+                bannerDescription_x0040_ContentType="text/html"
+                bannerDescription_x0040_LastModified="{Date}2022-03-16T00:39:41.963+05:30"
+                bannerHeader="Finacial update"
+                bannerHeader_x0040_LastModified="{Date}2022-03-16T00:39:41.963+05:30"
+                bannerType="FT_Banner_0"
+                bannerType_x0040_LastModified="{Date}2022-03-16T00:39:41.963+05:30"/>
+            <banner1
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                _x0040_variationCreationDate="{Date}2022-03-16T00:40:49.030+05:30"
+                bannerDescription="&lt;p>This is new update for banner 1&lt;/p>&#xa;"
+                bannerDescription_x0040_ContentType="text/html"
+                bannerDescription_x0040_LastModified="{Date}2022-03-16T00:41:08.853+05:30"
+                bannerHeader="Finacial update for banner"
+                bannerHeader_x0040_LastModified="{Date}2022-03-16T00:41:08.852+05:30"
+                bannerType="FT_Banner_1"
+                bannerType_x0040_LastModified="{Date}2022-03-16T00:41:08.854+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <banner1
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="banner1"
+                    name="banner1">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[bannerHeader:f38ffe38-5858-443e-b614-e7bbe6a40010,bannerDescription:f38ffe38-5858-443e-b614-e7bbe6a40010,bannerType:f38ffe38-5858-443e-b614-e7bbe6a40010]"/>
+                </banner1>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

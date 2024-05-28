@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="22f859ec-9628-4ae7-85f1-6fc732245a75">
+    <jcr:content
+        cq:name="fragment-reference-cf"
+        cq:parentPath="/content/dam/headless-cf-demo"
+        jcr:lastModified="{Date}2024-04-26T21:39:40.773+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Fragment reference cf"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-04-26T21:39:40.773+05:30">
+        <data
+            cq:model="/conf/Headless-practice-graphql/settings/dam/cfm/models/demo-fragment-reference-model"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                fragmentReference="/content/dam/headless-cf-demo/my-profile"
+                fragmentReference_x0040_LastModified="{Date}2024-04-26T21:37:42.685+05:30"
+                fragmentReferenceMulti="[/content/dam/headless-cf-demo/my-profile,/content/dam/headless-cf-demo/reference-cf-multifield]"
+                fragmentReferenceMulti_x0040_LastModified="{Date}2024-04-26T21:39:40.732+05:30"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="31d002f1-523a-4ee0-adc2-f05ed324468a"
+                _x0040_string_x0040_model="/conf/Headless-practice-graphql/settings/dam/cfm/models/demo-fragment-reference-model"
+                _x0040_stringArray_x0040_variations="[]"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
